@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISInformacionnaya_sistemaInvestment",
+  "modelName": "i-i-s-informacionnaya-sistema-investment",
+  "className": "Investment",
+  "nameSpace": "IIS.Informacionnaya_sistema",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "InvestmentE",
+      "modelName": "i-i-s-informacionnaya-sistema-investment",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "InvestmentL",
+      "modelName": "i-i-s-informacionnaya-sistema-investment",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

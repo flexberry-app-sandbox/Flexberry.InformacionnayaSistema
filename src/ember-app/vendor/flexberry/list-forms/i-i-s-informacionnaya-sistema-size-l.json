@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-informacionnaya-sistema-size-e",
+  "editForm": "i-i-s-informacionnaya-sistema-size-e",
+  "external": false,
+  "caption": "Size",
+  "name": "IISInformacionnaya_sistemaSizeL",
+  "className": "SizeL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-informacionnaya-sistema-size",
+      "modelProjection": "SizeL"
+    }
+  ]
+}

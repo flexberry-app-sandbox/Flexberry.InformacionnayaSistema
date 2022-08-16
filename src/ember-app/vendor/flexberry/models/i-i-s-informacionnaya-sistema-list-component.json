@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISInformacionnaya_sistemaListComponent",
+  "modelName": "i-i-s-informacionnaya-sistema-list-component",
+  "className": "ListComponent",
+  "nameSpace": "IIS.Informacionnaya_sistema",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "component",
+      "relatedTo": "i-i-s-informacionnaya-sistema-component",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "support",
+      "relatedTo": "i-i-s-informacionnaya-sistema-support",
+      "inverse": "listComponent"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ListComponentE",
+      "modelName": "i-i-s-informacionnaya-sistema-list-component",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Наименование",
+          "hidden": true,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Name",
+          "lookupValueField": "name",
+          "relationName": "Component",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Name",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Соц.составляющая",
+          "name": "component",
+          "relatedTo": "i-i-s-informacionnaya-sistema-component",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

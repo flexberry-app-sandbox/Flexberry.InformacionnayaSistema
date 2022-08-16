@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-informacionnaya-sistema-subindustry-e",
+  "editForm": "i-i-s-informacionnaya-sistema-subindustry-e",
+  "external": false,
+  "caption": "Subindustry",
+  "name": "IISInformacionnaya_sistemaSubindustryL",
+  "className": "SubindustryL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-informacionnaya-sistema-subindustry",
+      "modelProjection": "SubindustryL"
+    }
+  ]
+}

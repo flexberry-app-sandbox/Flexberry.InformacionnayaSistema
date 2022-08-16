@@ -1,0 +1,198 @@
+﻿{
+  "name": "IISInformacionnaya_sistemaSupport",
+  "modelName": "i-i-s-informacionnaya-sistema-support",
+  "className": "Support",
+  "nameSpace": "IIS.Informacionnaya_sistema",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "link",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "form",
+      "relatedTo": "i-i-s-informacionnaya-sistema-form",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "listComponent",
+      "relatedTo": "i-i-s-informacionnaya-sistema-list-component",
+      "inverse": "support"
+    },
+    {
+      "name": "listSubindustry",
+      "relatedTo": "i-i-s-informacionnaya-sistema-list-subindustry",
+      "inverse": "support"
+    },
+    {
+      "name": "listInvestment",
+      "relatedTo": "i-i-s-informacionnaya-sistema-list-investment",
+      "inverse": "support"
+    },
+    {
+      "name": "listSize",
+      "relatedTo": "i-i-s-informacionnaya-sistema-list-size",
+      "inverse": "support"
+    }
+  ],
+  "projections": [
+    {
+      "name": "SupportE",
+      "modelName": "i-i-s-informacionnaya-sistema-support",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "description",
+          "caption": "Описание",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "link",
+          "caption": "Ссылка на сайт",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Name",
+          "lookupValueField": "name",
+          "relationName": "Form",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Name",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Форма",
+          "name": "form",
+          "relatedTo": "i-i-s-informacionnaya-sistema-form",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ListSizeE",
+          "caption": "Условие 1: Размер компании",
+          "name": "listSize",
+          "relatedTo": "i-i-s-informacionnaya-sistema-list-size",
+          "inverse": null
+        },
+        {
+          "projectionName": "ListInvestmentE",
+          "caption": "Условие 2: Инвестиции",
+          "name": "listInvestment",
+          "relatedTo": "i-i-s-informacionnaya-sistema-list-investment",
+          "inverse": null
+        },
+        {
+          "projectionName": "ListSubindustryE",
+          "caption": "Условие 3: Подотрасль",
+          "name": "listSubindustry",
+          "relatedTo": "i-i-s-informacionnaya-sistema-list-subindustry",
+          "inverse": null
+        },
+        {
+          "projectionName": "ListComponentE",
+          "caption": "Условие 4: Соц.составляющая",
+          "name": "listComponent",
+          "relatedTo": "i-i-s-informacionnaya-sistema-list-component",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "SupportL",
+      "modelName": "i-i-s-informacionnaya-sistema-support",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "description",
+          "caption": "Описание",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "link",
+          "caption": "Ссылка на сайт",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Form",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Форма",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Форма",
+          "name": "form",
+          "relatedTo": "i-i-s-informacionnaya-sistema-form",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISInformacionnaya_sistemaComponent",
+  "modelName": "i-i-s-informacionnaya-sistema-component",
+  "className": "Component",
+  "nameSpace": "IIS.Informacionnaya_sistema",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ComponentE",
+      "modelName": "i-i-s-informacionnaya-sistema-component",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ComponentL",
+      "modelName": "i-i-s-informacionnaya-sistema-component",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Name",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

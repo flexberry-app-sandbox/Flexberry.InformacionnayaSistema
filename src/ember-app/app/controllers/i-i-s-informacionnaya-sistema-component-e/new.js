@@ -1,0 +1,4 @@
+import IISInformacionnaya_sistemaComponentEController from '../i-i-s-informacionnaya-sistema-component-e';
+
+var IISInformacionnaya_sistemaComponentENewController = IISInformacionnaya_sistemaComponentEController;
+export default IISInformacionnaya_sistemaComponentENewController;

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Subindustry",
+  "name": "IISInformacionnaya_sistemaSubindustryE",
+  "className": "SubindustryE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-informacionnaya-sistema-subindustry",
+      "modelProjection": "SubindustryE"
+    }
+  ]
+}

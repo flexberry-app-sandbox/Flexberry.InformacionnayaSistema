@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISInformacionnaya_sistemaListSubindustry",
+  "modelName": "i-i-s-informacionnaya-sistema-list-subindustry",
+  "className": "ListSubindustry",
+  "nameSpace": "IIS.Informacionnaya_sistema",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "subindustry",
+      "relatedTo": "i-i-s-informacionnaya-sistema-subindustry",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "support",
+      "relatedTo": "i-i-s-informacionnaya-sistema-support",
+      "inverse": "listSubindustry"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ListSubindustryE",
+      "modelName": "i-i-s-informacionnaya-sistema-list-subindustry",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Наименование",
+          "hidden": true,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Name",
+          "lookupValueField": "name",
+          "relationName": "Subindustry",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Name",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Подотрасль",
+          "name": "subindustry",
+          "relatedTo": "i-i-s-informacionnaya-sistema-subindustry",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

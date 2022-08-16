@@ -1,0 +1,55 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Form",
+      "projection": "FormL",
+      "detailModelName": null
+    },
+    {
+      "master": "size",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "ListSize.Size",
+      "projection": "SizeL",
+      "detailModelName": "i-i-s-informacionnaya-sistema-list-size"
+    },
+    {
+      "master": "investment",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "ListInvestment.Investment",
+      "projection": "InvestmentL",
+      "detailModelName": "i-i-s-informacionnaya-sistema-list-investment"
+    },
+    {
+      "master": "subindustry",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "ListSubindustry.Subindustry",
+      "projection": "SubindustryL",
+      "detailModelName": "i-i-s-informacionnaya-sistema-list-subindustry"
+    },
+    {
+      "master": "component",
+      "displayAttributeName": "name",
+      "required": true,
+      "relationName": "ListComponent.Component",
+      "projection": "ComponentL",
+      "detailModelName": "i-i-s-informacionnaya-sistema-list-component"
+    }
+  ],
+  "external": false,
+  "caption": "Support",
+  "name": "IISInformacionnaya_sistemaSupportE",
+  "className": "SupportE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-informacionnaya-sistema-support",
+      "modelProjection": "SupportE"
+    }
+  ]
+}

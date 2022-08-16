@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Информационно-консультационная система",
+  "applicationTitle": "Informacionnaya_sistema",
+  "items": [
+    {
+      "link": null,
+      "menuName": "информационно-консультационная-система",
+      "caption": "Информационно-консультационная система",
+      "title": "Информационно-консультационная система",
+      "children": [
+        {
+          "link": "i-i-s-informacionnaya-sistema-support-l",
+          "menuName": null,
+          "caption": "Мера поддержки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-informacionnaya-sistema-form-l",
+          "menuName": null,
+          "caption": "Форма",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-informacionnaya-sistema-size-l",
+          "menuName": null,
+          "caption": "Размер компании",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-informacionnaya-sistema-subindustry-l",
+          "menuName": null,
+          "caption": "Подотрасль",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-informacionnaya-sistema-investment-l",
+          "menuName": null,
+          "caption": "Инвестиции",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-informacionnaya-sistema-component-l",
+          "menuName": null,
+          "caption": "Соц.составляющая",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

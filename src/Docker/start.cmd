@@ -1,0 +1,1 @@
+docker-compose -p informacionnaya_sistema up -d

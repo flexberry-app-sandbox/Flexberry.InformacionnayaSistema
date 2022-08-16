@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISInformacionnaya_sistemaListSize",
+  "modelName": "i-i-s-informacionnaya-sistema-list-size",
+  "className": "ListSize",
+  "nameSpace": "IIS.Informacionnaya_sistema",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "name",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "size",
+      "relatedTo": "i-i-s-informacionnaya-sistema-size",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "support",
+      "relatedTo": "i-i-s-informacionnaya-sistema-support",
+      "inverse": "listSize"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ListSizeE",
+      "modelName": "i-i-s-informacionnaya-sistema-list-size",
+      "attrs": [
+        {
+          "name": "name",
+          "caption": "Наименование",
+          "hidden": true,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Name",
+          "lookupValueField": "name",
+          "relationName": "Size",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "name",
+              "caption": "Name",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Размер компании",
+          "name": "size",
+          "relatedTo": "i-i-s-informacionnaya-sistema-size",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
