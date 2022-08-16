@@ -2,7 +2,7 @@
   "newForm": "i-i-s-informacionnaya-sistema-size-e",
   "editForm": "i-i-s-informacionnaya-sistema-size-e",
   "external": false,
-  "caption": "Size",
+  "caption": "Размер компании",
   "name": "IISInformacionnaya_sistemaSizeL",
   "className": "SizeL",
   "attrs": [],

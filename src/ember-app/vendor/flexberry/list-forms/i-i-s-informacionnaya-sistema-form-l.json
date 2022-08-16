@@ -2,7 +2,7 @@
   "newForm": "i-i-s-informacionnaya-sistema-form-e",
   "editForm": "i-i-s-informacionnaya-sistema-form-e",
   "external": false,
-  "caption": "Form",
+  "caption": "Форма",
   "name": "IISInformacionnaya_sistemaFormL",
   "className": "FormL",
   "attrs": [],

@@ -2,7 +2,7 @@
   "newForm": "i-i-s-informacionnaya-sistema-subindustry-e",
   "editForm": "i-i-s-informacionnaya-sistema-subindustry-e",
   "external": false,
-  "caption": "Subindustry",
+  "caption": "Подотрасль",
   "name": "IISInformacionnaya_sistemaSubindustryL",
   "className": "SubindustryL",
   "attrs": [],
