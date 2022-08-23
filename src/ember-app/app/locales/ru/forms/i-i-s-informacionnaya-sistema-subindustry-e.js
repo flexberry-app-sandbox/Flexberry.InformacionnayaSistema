@@ -1,4 +1,4 @@
 export default {
-  caption: 'Subindustry',
+  caption: 'Подотрасль',
   'name-caption': 'Наименование'
 };
