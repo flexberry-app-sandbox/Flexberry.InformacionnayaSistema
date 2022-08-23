@@ -1,3 +1,3 @@
 export default {
-  caption: 'Component'
+  caption: 'Соц.составляющая'
 };
