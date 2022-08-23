@@ -28,37 +28,37 @@ export default Controller.extend({
             link: 'i-i-s-informacionnaya-sistema-support-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-support-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-support-l.title'),
-            icon: 'calendar',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-informacionnaya-sistema-form-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-form-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-form-l.title'),
-            icon: 'book',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-informacionnaya-sistema-size-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-size-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-size-l.title'),
-            icon: 'paperclip',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-informacionnaya-sistema-subindustry-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-subindustry-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-subindustry-l.title'),
-            icon: 'tags',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-informacionnaya-sistema-investment-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-investment-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-investment-l.title'),
-            icon: 'briefcase',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-informacionnaya-sistema-component-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-component-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-component-l.title'),
-            icon: 'calendar',
+            icon: 'edit',
             children: null
           }]
         }
