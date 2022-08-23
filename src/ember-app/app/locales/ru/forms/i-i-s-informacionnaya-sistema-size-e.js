@@ -1,4 +1,4 @@
 export default {
-  caption: 'Size',
+  caption: 'Размер компании',
   'name-caption': 'Наименование'
 };
