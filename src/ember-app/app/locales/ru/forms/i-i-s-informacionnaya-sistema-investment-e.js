@@ -1,4 +1,4 @@
 export default {
-  caption: 'Investment',
+  caption: 'Инвестиции',
   'name-caption': 'Наименование'
 };
