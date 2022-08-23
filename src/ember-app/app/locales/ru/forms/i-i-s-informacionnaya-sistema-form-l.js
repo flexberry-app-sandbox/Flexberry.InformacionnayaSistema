@@ -1,3 +1,3 @@
 export default {
-  caption: 'Form'
+  caption: 'Форма'
 };
