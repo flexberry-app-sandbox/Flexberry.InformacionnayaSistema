@@ -1,4 +1,4 @@
 export default {
-  caption: 'Form',
+  caption: 'Форма',
   'name-caption': 'Наименование'
 };
