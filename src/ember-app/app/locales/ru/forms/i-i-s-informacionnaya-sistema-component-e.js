@@ -1,4 +1,4 @@
 export default {
-  caption: 'Component',
-  'name-caption': 'Name'
+  caption: 'Соц.составляющая',
+  'name-caption': 'Наименование'
 };
