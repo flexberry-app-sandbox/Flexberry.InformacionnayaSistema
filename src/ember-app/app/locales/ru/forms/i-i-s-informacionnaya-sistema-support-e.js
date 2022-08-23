@@ -1,5 +1,5 @@
 export default {
-  caption: 'Мера поддержки',
+  caption: 'Support',
   'name-caption': 'Наименование',
   'description-caption': 'Описание',
   'link-caption': 'Ссылка на сайт',
