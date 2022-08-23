@@ -22,18 +22,19 @@ export default Controller.extend({
             link: 'i-i-s-informacionnaya-sistema-support-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-support-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-support-l.title'),
-            icon: 'suitcase',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-informacionnaya-sistema-form-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-form-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-form-l.title'),
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-informacionnaya-sistema-size-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-size-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-size-l.title'),
-            icon: 'phone',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-informacionnaya-sistema-subindustry-l',
@@ -45,7 +46,7 @@ export default Controller.extend({
             link: 'i-i-s-informacionnaya-sistema-investment-l',
             caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-investment-l.caption'),
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-investment-l.title'),
-            icon: 'book',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-informacionnaya-sistema-component-l',
