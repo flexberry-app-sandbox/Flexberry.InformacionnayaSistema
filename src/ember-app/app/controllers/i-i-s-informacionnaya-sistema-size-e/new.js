@@ -1,4 +1,4 @@
-import IISInformacionnaya_sistemaSizeEController from '../i-i-s-informacionnaya-sistema-size-e';
+import IISInformacionnayaSistemaSizeEController from '../i-i-s-informacionnaya-sistema-size-e';
 
-var IISInformacionnaya_sistemaSizeENewController = IISInformacionnaya_sistemaSizeEController;
-export default IISInformacionnaya_sistemaSizeENewController;
+var IISInformacionnayaSistemaSizeENewController = IISInformacionnayaSistemaSizeEController;
+export default IISInformacionnayaSistemaSizeENewController;

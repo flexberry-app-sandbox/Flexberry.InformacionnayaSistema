@@ -1,8 +1,8 @@
 ﻿{
-  "name": "IISInformacionnaya_sistemaListSize",
+  "name": "IISInformacionnayaSistemaListSize",
   "modelName": "i-i-s-informacionnaya-sistema-list-size",
   "className": "ListSize",
-  "nameSpace": "IIS.Informacionnaya_sistema",
+  "nameSpace": "IIS.InformacionnayaSistema",
   "parentModelName": null,
   "parentClassName": null,
   "attrs": [

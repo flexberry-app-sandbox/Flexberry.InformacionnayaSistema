@@ -42,6 +42,6 @@ export default ListFormRoute.extend({
     @type Object
   */
   developerUserSettings: computed(function() {
-    return { IISInformacionnaya_sistemaSupportL: {} }
+    return { IISInformacionnayaSistemaSupportL: {} }
   }),
 });

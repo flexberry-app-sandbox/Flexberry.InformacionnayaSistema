@@ -1,8 +1,8 @@
 ﻿{
-  "name": "IISInformacionnaya_sistemaSupport",
+  "name": "IISInformacionnayaSistemaSupport",
   "modelName": "i-i-s-informacionnaya-sistema-support",
   "className": "Support",
-  "nameSpace": "IIS.Informacionnaya_sistema",
+  "nameSpace": "IIS.InformacionnayaSistema",
   "parentModelName": null,
   "parentClassName": null,
   "attrs": [

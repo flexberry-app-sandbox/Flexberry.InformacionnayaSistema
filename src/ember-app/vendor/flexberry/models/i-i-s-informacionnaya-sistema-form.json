@@ -1,8 +1,8 @@
 ﻿{
-  "name": "IISInformacionnaya_sistemaForm",
+  "name": "IISInformacionnayaSistemaForm",
   "modelName": "i-i-s-informacionnaya-sistema-form",
   "className": "Form",
-  "nameSpace": "IIS.Informacionnaya_sistema",
+  "nameSpace": "IIS.InformacionnayaSistema",
   "parentModelName": null,
   "parentClassName": null,
   "attrs": [

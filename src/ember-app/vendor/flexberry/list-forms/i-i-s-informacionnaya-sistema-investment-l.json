@@ -3,7 +3,7 @@
   "editForm": "i-i-s-informacionnaya-sistema-investment-e",
   "external": false,
   "caption": "Инвестиции",
-  "name": "IISInformacionnaya_sistemaInvestmentL",
+  "name": "IISInformacionnayaSistemaInvestmentL",
   "className": "InvestmentL",
   "attrs": [],
   "projections": [

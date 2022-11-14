@@ -3,7 +3,7 @@
   "editForm": "i-i-s-informacionnaya-sistema-form-e",
   "external": false,
   "caption": "Форма",
-  "name": "IISInformacionnaya_sistemaFormL",
+  "name": "IISInformacionnayaSistemaFormL",
   "className": "FormL",
   "attrs": [],
   "projections": [

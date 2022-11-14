@@ -1,8 +1,8 @@
 ﻿{
-  "name": "IISInformacionnaya_sistemaInvestment",
+  "name": "IISInformacionnayaSistemaInvestment",
   "modelName": "i-i-s-informacionnaya-sistema-investment",
   "className": "Investment",
-  "nameSpace": "IIS.Informacionnaya_sistema",
+  "nameSpace": "IIS.InformacionnayaSistema",
   "parentModelName": null,
   "parentClassName": null,
   "attrs": [

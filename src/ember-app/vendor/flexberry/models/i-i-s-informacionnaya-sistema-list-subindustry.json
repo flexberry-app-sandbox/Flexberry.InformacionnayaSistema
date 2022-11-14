@@ -1,8 +1,8 @@
 ﻿{
-  "name": "IISInformacionnaya_sistemaListSubindustry",
+  "name": "IISInformacionnayaSistemaListSubindustry",
   "modelName": "i-i-s-informacionnaya-sistema-list-subindustry",
   "className": "ListSubindustry",
-  "nameSpace": "IIS.Informacionnaya_sistema",
+  "nameSpace": "IIS.InformacionnayaSistema",
   "parentModelName": null,
   "parentClassName": null,
   "attrs": [

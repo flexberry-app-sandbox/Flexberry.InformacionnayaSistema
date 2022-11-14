@@ -3,7 +3,7 @@
   "editForm": "i-i-s-informacionnaya-sistema-subindustry-e",
   "external": false,
   "caption": "Подотрасль",
-  "name": "IISInformacionnaya_sistemaSubindustryL",
+  "name": "IISInformacionnayaSistemaSubindustryL",
   "className": "SubindustryL",
   "attrs": [],
   "projections": [

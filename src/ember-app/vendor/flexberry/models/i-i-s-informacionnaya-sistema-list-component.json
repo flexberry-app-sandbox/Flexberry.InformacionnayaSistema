@@ -1,8 +1,8 @@
 ﻿{
-  "name": "IISInformacionnaya_sistemaListComponent",
+  "name": "IISInformacionnayaSistemaListComponent",
   "modelName": "i-i-s-informacionnaya-sistema-list-component",
   "className": "ListComponent",
-  "nameSpace": "IIS.Informacionnaya_sistema",
+  "nameSpace": "IIS.InformacionnayaSistema",
   "parentModelName": null,
   "parentClassName": null,
   "attrs": [
