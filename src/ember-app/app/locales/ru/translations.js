@@ -130,6 +130,14 @@ $.extend(true, translations, {
           'i-i-s-informacionnaya-sistema-component-l': {
             caption: 'Соц.составляющая',
             title: ''
+          },
+          'choice': {
+            caption: 'Подбор мер',
+            title: ''
+          },
+          'report': {
+            caption: 'Отчет',
+            title: ''
           }
         }
       }

@@ -54,6 +54,18 @@ export default Controller.extend({
             title: i18n.t('forms.application.sitemap.информационно-консультационная-система.i-i-s-informacionnaya-sistema-component-l.title'),
             icon: 'folder',
             children: null
+          }, {
+            link: 'choice',
+            caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.choice.caption'),
+            title: i18n.t('forms.application.sitemap.информационно-консультационная-система.choice.title'),
+            icon: 'book',
+            children: null
+          }, {
+            link: 'report',
+            caption: i18n.t('forms.application.sitemap.информационно-консультационная-система.report.caption'),
+            title: i18n.t('forms.application.sitemap.информационно-консультационная-система.report.title'),
+            icon: 'folder',
+            children: null
           }]
         }
       ]

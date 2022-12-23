@@ -36,6 +36,8 @@ Router.map(function () {
   { path: 'i-i-s-informacionnaya-sistema-support-e/:id' });
   this.route('i-i-s-informacionnaya-sistema-support-e.new',
   { path: 'i-i-s-informacionnaya-sistema-support-e/new' });
+  this.route('choice');
+  this.route('report');
 });
 
 export default Router;

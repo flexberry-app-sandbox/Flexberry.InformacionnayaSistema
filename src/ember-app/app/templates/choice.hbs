@@ -1,0 +1,70 @@
+<h3 class="ui header">Подбор мер поддержки бизнеса</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+
+
+<h4 class="panel-tiile">Выберите характеристики компании</h4>
+
+
+
+<div class="ui grid page menu">
+
+<div class="row"></div>
+
+<div class="field">
+  <label>Форма предоставления поддержки</label>
+  {{flexberry-dropdown
+    items=''
+    value='1'
+  }}
+</div>
+
+<div class="field">
+  <label>Размер компании</label>
+  {{flexberry-dropdown
+    items=''
+    value='1'
+  }}
+</div>
+
+<div class="field">
+  <label>Необходимый объем инвестиций</label>
+  {{flexberry-dropdown
+    items=model.investments
+    value='1'
+  }}
+</div>
+
+<div class="field">
+  <label>Подотрасль компании</label>
+  {{flexberry-dropdown
+    items=''
+    value='1'
+  }}
+</div>
+
+<div class="field">
+  <label>Наличие социальной составляющей</label>
+  {{flexberry-dropdown
+    items=''
+    value='1'
+  }}
+</div>
+
+
+<div class="row"></div>
+</div>
+
+
+{{flexberry-button
+  caption='Подобрать меры'
+  readonly=isButtonReadonly
+ 
+  class='primary'
+  iconClass=''
+  tagName='label'
+}}
+
+
+</form>
