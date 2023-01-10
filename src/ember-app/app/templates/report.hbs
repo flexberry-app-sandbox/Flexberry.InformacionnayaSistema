@@ -1,2 +1,40 @@
 <h3>Подходящие меры поддержки</h3>
-
+<div class="row">
+  {{flexberry-objectlistview
+    modelName=modelName
+    modelProjection=modelProjection
+    editFormRoute=editFormRoute
+    content=model
+    createNewButton=false
+    refreshButton=true
+    sorting=computedSorting
+    orderable=true
+    showCheckBoxInRow=false
+    sortByColumn=(action "sortByColumn")
+    addColumnToSorting=(action "addColumnToSorting")
+    beforeDeleteAllRecords=(action "beforeDeleteAllRecords")
+    pages=pages
+    perPageValue=perPageValue
+    perPageValues=perPageValues
+    recordsTotalCount=recordsTotalCount
+    hasPreviousPage=hasPreviousPage
+    hasNextPage=hasNextPage
+    previousPage=(action "previousPage")
+    gotoPage=(action "gotoPage")
+    nextPage=(action "nextPage")
+    componentName="IISInformacionnayaSistemaSupportL"
+    deleteButton=false
+    exportExcelButton=true
+    enableFilters=true
+    filters=filters
+    filterButton=true
+    showDeleteButtonInRow=false
+    showPrototypeButtonInRow=false
+    showEditButtonInRow=false
+    showFiltersInModal=true
+    applyFilters=(action "applyFilters")
+    resetFilters=(action "resetFilters")
+    filterByAnyMatch=(action "filterByAnyMatch")
+    rowClickable=false
+  }}
+</div>  

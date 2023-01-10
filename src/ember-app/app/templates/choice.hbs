@@ -6,8 +6,6 @@
 
 <h4 class="panel-tiile">Выберите характеристики компании</h4>
 
-
-
 <div class="ui grid page menu">
 
 <div class="row"></div>
@@ -15,16 +13,16 @@
 <div class="field">
   <label>Форма предоставления поддержки</label>
   {{flexberry-dropdown
-    items=''
-    value='1'
+    items=model.form
+    value=reslutObject
   }}
 </div>
 
 <div class="field">
   <label>Размер компании</label>
   {{flexberry-dropdown
-    items=''
-    value='1'
+    items=model.size
+    value=reslutObject
   }}
 </div>
 
@@ -32,23 +30,23 @@
   <label>Необходимый объем инвестиций</label>
   {{flexberry-dropdown
     items=model.investments
-    value='1'
+    value=reslutObject
   }}
 </div>
 
 <div class="field">
   <label>Подотрасль компании</label>
   {{flexberry-dropdown
-    items=''
-    value='1'
+    items=model.subindustry
+    value=reslutObject
   }}
 </div>
 
 <div class="field">
   <label>Наличие социальной составляющей</label>
   {{flexberry-dropdown
-    items=''
-    value='1'
+    items=model.component
+    value=reslutObject
   }}
 </div>
 
@@ -56,15 +54,7 @@
 <div class="row"></div>
 </div>
 
-
-{{flexberry-button
-  caption='Подобрать меры'
-  readonly=isButtonReadonly
- 
-  class='primary'
-  iconClass=''
-  tagName='label'
-}}
+<button class="flexberry-button ui button primary" onclick={{action "transitionToReport"}}>Подобрать меры</button>
 
 
 </form>
