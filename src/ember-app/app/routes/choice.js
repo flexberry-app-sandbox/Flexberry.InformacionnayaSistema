@@ -67,6 +67,11 @@ export default Route.extend({
 
         return reslutObject;
 
+    },
+
+    setupController(controller, model) {
+        this._super(...arguments);
+        controller.resetValues();
     }
 });
 
